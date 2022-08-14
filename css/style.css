@@ -69,6 +69,19 @@ nav.navbar-transparente {
     background-color: #FFFFFF;
     color: black;
 }
+
+/* Estrutura de Serviços
+**************************************/
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.alguns {
+    padding: 10px 0;
+}
+
 /* Tipografia
 ***********************************/ 
 h1 {
