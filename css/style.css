@@ -10,6 +10,7 @@ body {
  ***********************************/
  html, body, #inicio {
     height: 100%;
+    overflow-x: hidden;
 }
  
 nav.navbar-transparente {
@@ -44,9 +45,9 @@ nav.navbar-transparente {
 
 .btn-custom {
     color: white;
-    border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
+    border-radius: 500px;
     text-transform: uppercase;
     transition: background 0.4s, color 0.4s;
     padding: 10px 25px;
@@ -72,14 +73,43 @@ nav.navbar-transparente {
 
 /* Estrutura de Serviços
 **************************************/
-#servicos {
-    background: white;
+.caixa {
     padding-top: 20px;
     padding-bottom: 20px;
+}
+#servicos {
+    background: white;
+}
+
+#servicos h2, h3 {
+    color: #7c25f8;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos {
+    color: white;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos p {
+    color: white;
 }
 
 .alguns {
     padding: 10px 0;
+}
+
+.rotacionar {
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* Tipografia
@@ -89,6 +119,18 @@ h1 {
     letter-spacing: -0.05em;
     margin-bottom: 50px;
     color: white;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
 }
 
 /* Extra small devices (portrait phones, less than 576px)*/
